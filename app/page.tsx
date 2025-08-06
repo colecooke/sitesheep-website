@@ -130,8 +130,6 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-50">
-        <div className="absolute inset-0 bg-gradient-to-br from-white/50 via-transparent to-white/50"></div>
-        
         {/* Animated gradient orbs with brand colors */}
         <div className="absolute top-20 left-10 w-96 h-96 rounded-full filter blur-[120px] opacity-20 animate-float" style={{ background: '#595758' }}></div>
         <div className="absolute top-40 right-10 w-96 h-96 rounded-full filter blur-[120px] opacity-15 animate-float" style={{ background: '#231815', animationDelay: '2s' }}></div>
