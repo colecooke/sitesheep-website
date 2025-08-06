@@ -286,7 +286,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-900">Design</h3>
                 <p className="text-gray-600">We create your complete website with all pages, features, and optimizations.</p>
-                <div className="mt-4 text-sm font-semibold" style={{ color: '#231815' }}>Days 2-4</div>
+                <div className="mt-4 text-sm font-semibold" style={{ color: '#595758' }}>Days 2-4</div>
               </div>
             </div>
 
