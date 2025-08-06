@@ -196,7 +196,7 @@ export default function Home() {
                 {counts.days}
               </div>
               <div className="text-lg font-semibold text-gray-700">Days to Launch</div>
-              <div className="text-sm text-gray-500 mt-2">From concept to live website</div>
+              <div className="text-sm text-gray-500 mt-2">From concept to live website.</div>
             </div>
           </div>
         </div>
