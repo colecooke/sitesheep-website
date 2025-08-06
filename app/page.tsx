@@ -188,7 +188,7 @@ export default function Home() {
                 {counts.customers}+
               </div>
               <div className="text-lg font-semibold text-gray-700">Happy Customers</div>
-              <div className="text-sm text-gray-500 mt-2">Businesses that trust SiteSheep</div>
+              <div className="text-sm text-gray-500 mt-2">Businesses that trust SiteSheep.</div>
             </div>
             
             <div className="glass-effect rounded-2xl p-8 text-center hover:scale-105 transition-transform duration-300">
