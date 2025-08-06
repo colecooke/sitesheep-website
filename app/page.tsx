@@ -139,8 +139,8 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="animate-slide-up">
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-gray-900 leading-tight">
-              Your website redesign in
-              <span className="block gradient-text leading-relaxed">days, not weeks</span>
+              Website Redesign.
+              <span className="block gradient-text leading-relaxed">Days, Not Weeks.</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto">
               Get a stunning, conversion-optimized website that delivers results. 
