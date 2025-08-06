@@ -155,8 +155,8 @@ export default function Home() {
               </a>
             </div>
             <div className="mt-6 flex items-center justify-center gap-2">
-              <svg className="w-4 h-4" style={{ color: '#F59E0B' }} fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
+              <svg className="w-4 h-4" style={{ color: '#F59E0B' }} fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2l-2 9h3l-1 7 4-9h-3l1-5z" />
               </svg>
               <span className="text-sm font-medium" style={{ color: '#F59E0B' }}>
                 Free preview delivered in 24 hours.
@@ -221,7 +221,7 @@ export default function Home() {
             <div className="feature-card min-h-[280px] flex flex-col text-center md:text-left">
               <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M13 2l-2 11h4l-2 9 6-13h-4l2-7z" />
+                  <path d="M12 2l-2 9h3l-1 7 4-9h-3l1-5z" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Lightning Fast Delivery</h3>
