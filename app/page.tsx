@@ -180,7 +180,7 @@ export default function Home() {
                 {counts.websites}+
               </div>
               <div className="text-lg font-semibold text-gray-700">Websites Redesigned</div>
-              <div className="text-sm text-gray-500 mt-2">Modern, conversion-focused designs</div>
+              <div className="text-sm text-gray-500 mt-2">Modern, conversion-focused designs.</div>
             </div>
             
             <div className="glass-effect rounded-2xl p-8 text-center hover:scale-105 transition-transform duration-300">
