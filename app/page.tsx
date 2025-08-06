@@ -281,7 +281,7 @@ export default function Home() {
 
             <div className="process-step text-center">
               <div className="glass-effect rounded-2xl p-8 hover:scale-105 transition-transform duration-300">
-                <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold shadow-lg" style={{ background: 'linear-gradient(135deg, #231815 0%, #595758 100%)' }}>
+                <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold shadow-lg" style={{ background: '#F59E0B' }}>
                   2
                 </div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-900">Design</h3>
