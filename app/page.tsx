@@ -244,7 +244,7 @@ export default function Home() {
               <p className="text-gray-600">We handle everything from design to deployment. Sit back and watch your vision come to life.</p>
             </div>
 
-            <div className="feature-card">
+            <div className="feature-card min-h-[280px] flex flex-col">
               <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg" style={{ background: 'linear-gradient(135deg, #231815 0%, #595758 100%)' }}>
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
