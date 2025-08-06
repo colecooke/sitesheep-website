@@ -155,7 +155,7 @@ export default function Home() {
               </a>
             </div>
             <p className="mt-6 text-sm text-gray-500">
-              ⚡ Free mockup delivered in 24 hours
+              ⚡ Free preview delivered in 24 hours
             </p>
           </div>
         </div>
