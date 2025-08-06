@@ -147,8 +147,8 @@ export default function Home() {
               Fast turnaround, professional design, zero hassle.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="mailto:hello@sitesheep.io?subject=Free Homepage Mockup Request" className="btn-primary">
-                <span>Get Your Free Homepage Mockup</span>
+              <a href="mailto:hello@sitesheep.io?subject=Free Homepage Preview Request" className="btn-primary">
+                <span>Get Your Free Homepage Preview</span>
               </a>
               <a href="#process" className="btn-secondary">
                 See How It Works
