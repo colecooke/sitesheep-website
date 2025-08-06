@@ -221,8 +221,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Lightning Fast Delivery</h3>
-              <p className="text-gray-600 mb-4">Complete website redesign in just 3-5 days. No more waiting months for your new site.</p>
-              <div className="text-sm font-semibold" style={{ color: '#595758' }}>3-5 day turnaround →</div>
+              <p className="text-gray-600">Complete website redesign in just 3-5 days. No more waiting months for your new site.</p>
             </div>
 
             <div className="feature-card">
