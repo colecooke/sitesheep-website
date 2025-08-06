@@ -1,60 +1,11 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [isVisible, setIsVisible] = useState(false)
-  const [counts, setCounts] = useState({ websites: 0, customers: 0, days: 0 })
-  const statsRef = useRef(null)
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting && !isVisible) {
-          setIsVisible(true)
-          
-          // Animate counters with easing
-          const duration = 2000 // 2 seconds
-          const targets = { websites: 237, customers: 185, days: 5 }
-          const startTime = Date.now()
-          
-          const animateCounters = () => {
-            const elapsed = Date.now() - startTime
-            const progress = Math.min(elapsed / duration, 1)
-            
-            // Cubic easing for smooth animation
-            const eased = 1 - Math.pow(1 - progress, 3)
-            
-            setCounts({
-              websites: Math.floor(targets.websites * eased),
-              customers: Math.floor(targets.customers * eased),
-              days: Number((targets.days * eased).toFixed(1))
-            })
-            
-            if (progress < 1) {
-              requestAnimationFrame(animateCounters)
-            }
-          }
-          
-          animateCounters()
-        }
-      },
-      { threshold: 0.2 }
-    )
-    
-    const currentRef = statsRef.current
-    if (currentRef) {
-      observer.observe(currentRef)
-    }
-    
-    return () => {
-      if (currentRef) {
-        observer.unobserve(currentRef)
-      }
-    }
-  }, [isVisible])
 
   return (
     <>
