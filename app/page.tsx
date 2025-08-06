@@ -224,7 +224,7 @@ export default function Home() {
               <p className="text-gray-600">Complete website redesign in just 5 days. No more waiting months for your new site.</p>
             </div>
 
-            <div className="feature-card">
+            <div className="feature-card min-h-[280px] flex flex-col">
               <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg" style={{ background: 'linear-gradient(135deg, #231815 0%, #595758 100%)' }}>
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
