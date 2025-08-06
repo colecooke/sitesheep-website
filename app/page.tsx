@@ -147,7 +147,7 @@ export default function Home() {
               Fast turnaround, professional design, zero hassle.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="mailto:hello@sitesheep.io?subject=Free Homepage Preview Request" className="btn-primary">
+              <a href="mailto:hello@sitesheep.io?subject=Free Homepage Preview Request" className="px-8 py-4 font-semibold text-white rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl" style={{ background: '#F59E0B' }}>
                 <span>Get Your Free Homepage Preview</span>
               </a>
               <a href="#process" className="btn-secondary">
