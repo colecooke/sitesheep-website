@@ -241,8 +241,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Full Service Management</h3>
-              <p className="text-gray-600 mb-4">We handle everything from design to deployment. Sit back and watch your vision come to life.</p>
-              <div className="text-sm font-semibold" style={{ color: '#595758' }}>Completely hands-off →</div>
+              <p className="text-gray-600">We handle everything from design to deployment. Sit back and watch your vision come to life.</p>
             </div>
 
             <div className="feature-card">
