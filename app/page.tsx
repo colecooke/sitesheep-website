@@ -117,47 +117,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Proof Points Section */}
-      <section ref={statsRef} className="py-20 bg-gradient-to-b from-gray-50 via-white to-gray-50 relative overflow-hidden">
-        {/* Animated background orbs - hidden on mobile to prevent white box issue */}
-        <div className="hidden md:block absolute top-10 right-20 w-64 h-64 rounded-full filter blur-[100px] opacity-10 animate-float" style={{ background: '#595758' }}></div>
-        <div className="hidden md:block absolute bottom-10 left-20 w-64 h-64 rounded-full filter blur-[100px] opacity-10 animate-float" style={{ background: '#231815', animationDelay: '3s' }}></div>
-        
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-              Trusted by businesses to deliver <span className="gradient-text">exceptional results</span>
-            </h2>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="glass-effect rounded-2xl p-8 text-center hover:scale-105 transition-transform duration-300">
-              <div className="text-5xl md:text-6xl font-bold gradient-text mb-2">
-                {counts.websites}+
-              </div>
-              <div className="text-lg font-semibold text-gray-700">Websites Redesigned</div>
-              <div className="text-sm text-gray-500 mt-2">Modern, conversion-focused designs.</div>
-            </div>
-            
-            <div className="glass-effect rounded-2xl p-8 text-center hover:scale-105 transition-transform duration-300">
-              <div className="text-5xl md:text-6xl font-bold gradient-text mb-2">
-                {counts.customers}+
-              </div>
-              <div className="text-lg font-semibold text-gray-700">Happy Customers</div>
-              <div className="text-sm text-gray-500 mt-2">Businesses that trust SiteSheep.</div>
-            </div>
-            
-            <div className="glass-effect rounded-2xl p-8 text-center hover:scale-105 transition-transform duration-300">
-              <div className="text-5xl md:text-6xl font-bold gradient-text mb-2">
-                {counts.days}
-              </div>
-              <div className="text-lg font-semibold text-gray-700">Days to Launch</div>
-              <div className="text-sm text-gray-500 mt-2">From concept to live website.</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Features Section */}
       <section id="features" className="py-20 bg-gradient-to-b from-white via-gray-50 to-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
