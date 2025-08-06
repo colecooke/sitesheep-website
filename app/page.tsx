@@ -231,8 +231,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Professional Design</h3>
-              <p className="text-gray-600 mb-4">Modern, conversion-optimized designs that make your business stand out.</p>
-              <div className="text-sm font-semibold" style={{ color: '#231815' }}>Award-winning designs →</div>
+              <p className="text-gray-600">Modern, conversion-optimized designs that make your business stand out.</p>
             </div>
 
             <div className="feature-card">
