@@ -154,7 +154,7 @@ export default function Home() {
                 See How It Works
               </a>
             </div>
-            <p className="mt-6 text-sm text-gray-500">
+            <p className="mt-6 text-sm font-medium" style={{ color: '#F59E0B' }}>
               ⚡ Free preview delivered in 24 hours
             </p>
           </div>
