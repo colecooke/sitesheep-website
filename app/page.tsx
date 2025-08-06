@@ -334,7 +334,7 @@ export default function Home() {
                 <span className="text-xl font-bold text-black">SiteSheep</span>
               </div>
               <p className="text-gray-600">
-                Website redesign in days, not weeks.
+                Website Redesign. Days, Not Weeks.
               </p>
             </div>
             
