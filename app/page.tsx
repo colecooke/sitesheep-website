@@ -130,7 +130,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-50">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-50 pt-20 md:pt-0">
         {/* Animated gradient orbs with brand colors */}
         <div className="absolute top-20 left-10 w-96 h-96 rounded-full filter blur-[120px] opacity-0 animate-fade-in-float" style={{ background: '#595758', animationDelay: '0.5s' }}></div>
         <div className="absolute top-40 right-10 w-96 h-96 rounded-full filter blur-[120px] opacity-0 animate-fade-in-float" style={{ background: '#231815', animationDelay: '1s' }}></div>
