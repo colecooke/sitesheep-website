@@ -120,7 +120,7 @@ export default function Home() {
               <a 
                 href="mailto:hello@sitesheep.io" 
                 className="block px-5 py-2 mt-2 text-center font-semibold text-white rounded-lg transition-all duration-300" 
-                style={{ background: 'linear-gradient(135deg, #595758 0%, #231815 100%)' }}
+                style={{ background: '#F59E0B' }}
               >
                 <span>Get Started</span>
               </a>
