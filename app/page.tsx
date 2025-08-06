@@ -63,7 +63,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
-              <Image src="/logos/sheep-free-svgrepo-com.svg" alt="SiteSheep Logo" width={32} height={32} priority />
+              <Image src="/logos/sheep-free-svgrepo-com.svg" alt="SiteSheep Logo" width={40} height={40} priority />
               <span className="text-xl font-bold text-black">SiteSheep</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -330,7 +330,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <Image src="/logos/sheep-free-svgrepo-com.svg" alt="SiteSheep Logo" width={32} height={32} loading="lazy" />
+                <Image src="/logos/sheep-free-svgrepo-com.svg" alt="SiteSheep Logo" width={40} height={40} loading="lazy" />
                 <span className="text-xl font-bold text-black">SiteSheep</span>
               </div>
               <p className="text-gray-600">
