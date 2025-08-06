@@ -264,7 +264,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
               From concept to launch in <span className="gradient-text">3 simple steps</span>
             </h2>
-            <p className="text-xl text-gray-600">Our streamlined process gets you online faster</p>
+            <p className="text-xl text-gray-600">Our streamlined process gets you online faster.</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
