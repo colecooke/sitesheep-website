@@ -242,9 +242,9 @@ export default function Home() {
       {/* Footer */}
       <footer id="contact" className="bg-gradient-to-b from-gray-50 to-white py-12 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="text-center md:text-left">
+              <div className="flex items-center space-x-2 mb-4 justify-center md:justify-start">
                 <Image src="/logos/sheep-free-svgrepo-com.svg" alt="SiteSheep Logo" width={40} height={40} loading="lazy" />
                 <span className="text-xl font-bold text-black">SiteSheep</span>
               </div>
@@ -253,21 +253,10 @@ export default function Home() {
               </p>
             </div>
             
-            <div>
-              <h4 className="font-semibold mb-4 text-gray-900">Services</h4>
-              <ul className="space-y-2 text-gray-600">
-                <li><a href="#features" className="hover:text-[#595758] transition-colors">Website Redesign</a></li>
-                <li><a href="#features" className="hover:text-[#595758] transition-colors">New Websites</a></li>
-                <li><a href="#features" className="hover:text-[#595758] transition-colors">Website Management</a></li>
-                <li><a href="#features" className="hover:text-[#595758] transition-colors">Performance Optimization</a></li>
-              </ul>
-            </div>
-            
-            
-            <div>
+            <div className="text-center md:text-right">
               <h4 className="font-semibold mb-4 text-gray-900">Get in Touch</h4>
               <a href="mailto:hello@sitesheep.io" className="text-gray-600 mb-2 hover:text-[#595758] transition-colors">hello@sitesheep.io</a>
-              <div className="flex space-x-4 mt-4">
+              <div className="flex space-x-4 mt-4 justify-center md:justify-end">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#595758] transition-colors" aria-label="Facebook">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
