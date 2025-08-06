@@ -221,7 +221,7 @@ export default function Home() {
             <div className="feature-card min-h-[280px] flex flex-col text-center md:text-left">
               <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2l-2 9h3l-1 7 4-9h-3l1-5z" />
+                  <path d="M13 3l-3 10h4l-2 8 6-11h-4l2-6z" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Lightning Fast Delivery</h3>
