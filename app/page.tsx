@@ -314,8 +314,8 @@ export default function Home() {
             Get your free homepage preview delivered in 24 hours. No commitment required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:hello@sitesheep.io?subject=Free Homepage Mockup Request" className="bg-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:bg-gray-50" style={{ color: '#231815' }}>
-              Get Your Free Mockup
+            <a href="mailto:hello@sitesheep.io?subject=Free Homepage Preview Request" className="bg-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:bg-gray-50" style={{ color: '#231815' }}>
+              Get Your Free Preview
             </a>
             <a href="mailto:hello@sitesheep.io?subject=Schedule a Call" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300">
               Schedule a Call
