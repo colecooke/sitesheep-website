@@ -311,7 +311,7 @@ export default function Home() {
             Ready to transform your website?
           </h2>
           <p className="text-xl text-white/90 mb-8">
-            Get your free homepage mockup delivered in 24 hours. No commitment required.
+            Get your free homepage preview delivered in 24 hours. No commitment required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="mailto:hello@sitesheep.io?subject=Free Homepage Mockup Request" className="bg-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:bg-gray-50" style={{ color: '#231815' }}>
