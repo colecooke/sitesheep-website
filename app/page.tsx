@@ -1,10 +1,60 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [isVisible, setIsVisible] = useState(false)
+  const [counts, setCounts] = useState({ websites: 0, customers: 0, days: 0 })
+  const statsRef = useRef(null)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && !isVisible) {
+          setIsVisible(true)
+          
+          // Animate counters with easing
+          const duration = 2000 // 2 seconds
+          const targets = { websites: 237, customers: 185, days: 5 }
+          const startTime = Date.now()
+          
+          const animateCounters = () => {
+            const elapsed = Date.now() - startTime
+            const progress = Math.min(elapsed / duration, 1)
+            
+            // Cubic easing for smooth animation
+            const eased = 1 - Math.pow(1 - progress, 3)
+            
+            setCounts({
+              websites: Math.floor(targets.websites * eased),
+              customers: Math.floor(targets.customers * eased),
+              days: Number((targets.days * eased).toFixed(1))
+            })
+            
+            if (progress < 1) {
+              requestAnimationFrame(animateCounters)
+            }
+          }
+          
+          animateCounters()
+        }
+      },
+      { threshold: 0.2 }
+    )
+    
+    const currentRef = statsRef.current
+    if (currentRef) {
+      observer.observe(currentRef)
+    }
+    
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef)
+      }
+    }
+  }, [isVisible])
 
   return (
     <>
@@ -108,6 +158,47 @@ export default function Home() {
             <p className="mt-6 text-sm text-gray-500">
               ⚡ Free mockup delivered in 24 hours
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Proof Points Section */}
+      <section ref={statsRef} className="py-20 bg-gradient-to-b from-gray-50 via-white to-gray-50 relative overflow-hidden">
+        {/* Animated background orbs */}
+        <div className="absolute top-10 right-20 w-64 h-64 rounded-full filter blur-[100px] opacity-10 animate-float" style={{ background: '#595758' }}></div>
+        <div className="absolute bottom-10 left-20 w-64 h-64 rounded-full filter blur-[100px] opacity-10 animate-float" style={{ background: '#231815', animationDelay: '3s' }}></div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Trusted by businesses to deliver <span className="gradient-text">exceptional results</span>
+            </h2>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="glass-effect rounded-2xl p-8 text-center hover:scale-105 transition-transform duration-300">
+              <div className="text-5xl md:text-6xl font-bold gradient-text mb-2">
+                {counts.websites}+
+              </div>
+              <div className="text-lg font-semibold text-gray-700">Websites Redesigned</div>
+              <div className="text-sm text-gray-500 mt-2">Modern, conversion-focused designs</div>
+            </div>
+            
+            <div className="glass-effect rounded-2xl p-8 text-center hover:scale-105 transition-transform duration-300">
+              <div className="text-5xl md:text-6xl font-bold gradient-text mb-2">
+                {counts.customers}+
+              </div>
+              <div className="text-lg font-semibold text-gray-700">Happy Customers</div>
+              <div className="text-sm text-gray-500 mt-2">Businesses that trust SiteSheep</div>
+            </div>
+            
+            <div className="glass-effect rounded-2xl p-8 text-center hover:scale-105 transition-transform duration-300">
+              <div className="text-5xl md:text-6xl font-bold gradient-text mb-2">
+                {counts.days}
+              </div>
+              <div className="text-lg font-semibold text-gray-700">Days to Launch</div>
+              <div className="text-sm text-gray-500 mt-2">From concept to live website</div>
+            </div>
           </div>
         </div>
       </section>
