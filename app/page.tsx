@@ -306,11 +306,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className="text-center mt-16">
-            <p className="text-2xl font-bold mb-2 text-gray-900">🚀 Average time to launch:</p>
-            <p className="text-5xl font-bold gradient-text">3.5 days</p>
-          </div>
         </div>
       </section>
 
