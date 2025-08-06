@@ -244,7 +244,7 @@ export default function Home() {
             </div>
 
             <div className="feature-card min-h-[280px] flex flex-col text-center md:text-left">
-              <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg mx-auto md:mx-0" style={{ background: 'linear-gradient(135deg, #231815 0%, #595758 100%)' }}>
+              <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
