@@ -141,7 +141,7 @@ export default function Home() {
           <div className="animate-slide-up">
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-gray-900">
               Your website redesign in
-              <span className="block gradient-text">5 days, not weeks</span>
+              <span className="block gradient-text">days, not weeks</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto">
               Get a stunning, conversion-optimized website that delivers results. 
