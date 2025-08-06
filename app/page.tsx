@@ -274,7 +274,7 @@ export default function Home() {
                   1
                 </div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-900">Submit</h3>
-                <p className="text-gray-600">Share your vision and current website. We&apos;ll create a free mockup in 24 hours.</p>
+                <p className="text-gray-600">Share your vision and current website. We&apos;ll create a free preview in 24 hours.</p>
                 <div className="mt-4 text-sm font-semibold" style={{ color: '#595758' }}>Day 1</div>
               </div>
             </div>
