@@ -251,7 +251,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Instant Preview</h3>
-              <p className="text-gray-600">See your free homepage mockup in just 24 hours. Love it before you commit.</p>
+              <p className="text-gray-600">See your free homepage preview in just 24 hours. Love it before you commit.</p>
             </div>
           </div>
         </div>
