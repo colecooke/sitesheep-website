@@ -163,9 +163,9 @@ export default function Home() {
 
       {/* Proof Points Section */}
       <section ref={statsRef} className="py-20 bg-gradient-to-b from-gray-50 via-white to-gray-50 relative overflow-hidden">
-        {/* Animated background orbs */}
-        <div className="absolute top-10 right-20 w-64 h-64 rounded-full filter blur-[100px] opacity-10 animate-float" style={{ background: '#595758' }}></div>
-        <div className="absolute bottom-10 left-20 w-64 h-64 rounded-full filter blur-[100px] opacity-10 animate-float" style={{ background: '#231815', animationDelay: '3s' }}></div>
+        {/* Animated background orbs - hidden on mobile to prevent white box issue */}
+        <div className="hidden md:block absolute top-10 right-20 w-64 h-64 rounded-full filter blur-[100px] opacity-10 animate-float" style={{ background: '#595758' }}></div>
+        <div className="hidden md:block absolute bottom-10 left-20 w-64 h-64 rounded-full filter blur-[100px] opacity-10 animate-float" style={{ background: '#231815', animationDelay: '3s' }}></div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
