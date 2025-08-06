@@ -70,7 +70,7 @@ export default function Home() {
               <a href="#features" className="text-gray-700 hover:text-[#595758] transition-colors">Features</a>
               <a href="#process" className="text-gray-700 hover:text-[#595758] transition-colors">How It Works</a>
               <a href="#contact" className="text-gray-700 hover:text-[#595758] transition-colors">Contact</a>
-              <a href="mailto:hello@sitesheep.io" className="btn-primary">
+              <a href="mailto:hello@sitesheep.io" className="relative px-5 py-2 font-semibold text-white rounded-lg overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-lg" style={{ background: 'linear-gradient(135deg, #595758 0%, #231815 100%)' }}>
                 <span>Get Started</span>
               </a>
             </div>
