@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SiteSheep - Website Redesign in Days, Not Weeks',
+  title: 'SiteSheep - Website Redesign. Days, Not Weeks.',
   description: 'Get your website redesigned in 3-5 days. Professional design, lightning-fast delivery, and a free homepage mockup in 24 hours. Transform your online presence with SiteSheep.',
   keywords: 'website redesign, fast website design, website development, web design agency, quick turnaround',
   metadataBase: new URL('https://sitesheep.io'),
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'SiteSheep - Website Redesign in Days, Not Weeks',
+    title: 'SiteSheep - Website Redesign. Days, Not Weeks.',
     description: 'Get your website redesigned in 3-5 days with a free homepage mockup in 24 hours.',
     url: 'https://sitesheep.io',
     siteName: 'SiteSheep',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SiteSheep - Website Redesign in Days, Not Weeks',
+    title: 'SiteSheep - Website Redesign. Days, Not Weeks.',
     description: 'Get your website redesigned in 3-5 days with a free homepage mockup in 24 hours.',
     images: ['/logos/sheep-free-svgrepo-com.svg'],
   },

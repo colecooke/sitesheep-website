@@ -81,17 +81,17 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-50 pt-20 md:pt-0">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-50 pt-24 md:pt-20">
         {/* Animated gradient orbs with brand colors */}
         <div className="absolute top-20 left-10 w-96 h-96 rounded-full filter blur-[120px] opacity-0 animate-fade-in-float" style={{ background: '#595758', animationDelay: '0.5s' }}></div>
         <div className="absolute top-40 right-10 w-96 h-96 rounded-full filter blur-[120px] opacity-0 animate-fade-in-float" style={{ background: '#231815', animationDelay: '1s' }}></div>
         <div className="absolute -bottom-8 left-20 w-96 h-96 rounded-full filter blur-[120px] opacity-0 animate-fade-in-float" style={{ background: '#595758', animationDelay: '1.5s' }}></div>
         
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-12">
           <div className="animate-slide-up">
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-gray-900 leading-tight">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-gray-900 leading-tight">
               Website Redesign.
-              <span className="block gradient-text leading-relaxed">Days, Not Weeks.</span>
+              <span className="block gradient-text leading-relaxed mt-2">Days, Not Weeks.</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto">
               Get a stunning, conversion-optimized website that delivers results. 
