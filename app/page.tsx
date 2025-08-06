@@ -155,7 +155,7 @@ export default function Home() {
               </a>
             </div>
             <p className="mt-6 text-sm font-medium" style={{ color: '#F59E0B' }}>
-              ⚡ Free preview delivered in 24 hours
+              ⚡ Free preview delivered in 24 hours.
             </p>
           </div>
         </div>
