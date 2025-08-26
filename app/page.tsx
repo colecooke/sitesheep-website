@@ -177,7 +177,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16 animate-fade-in">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gray-900">
-              Trusted by businesses to deliver <span className="gradient-text">exceptional results</span>
+              Trusted to deliver <span className="gradient-text">exceptional results</span>
             </h2>
           </div>
           
