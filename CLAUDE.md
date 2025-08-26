@@ -48,6 +48,13 @@ The site is configured for automatic deployment on Vercel:
 2. Connect repository to Vercel
 3. Auto-deploy on push to main branch
 
+**IMPORTANT**: Always auto-deploy after making any changes to the website by running:
+```bash
+git add .
+git commit -m "Update: [brief description of changes]"
+git push
+```
+
 ## Future Enhancements
 - Add more pages (About, Services, Contact)
 - Implement contact form functionality
