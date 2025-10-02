@@ -57,7 +57,7 @@
   }
 
   .btn-secondary {
-    @apply px-8 py-4 font-semibold rounded-xl border-2 transition-all duration-300 transform hover:scale-105;
+    @apply px-6 py-3 font-semibold rounded-xl border-2 transition-all duration-300 transform hover:scale-105;
     border-color: #595758;
     color: #595758;
   }
