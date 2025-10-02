@@ -89,16 +89,16 @@ export default function Home() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-12">
           <div className="animate-slide-up">
-            <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-900 leading-tight">
+            <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-bold mb-4 text-gray-900 leading-tight">
               Website Redesign.
-              <span className="block gradient-text leading-relaxed mt-2">Days, Not Weeks.</span>
+              <span className="block gradient-text leading-relaxed mt-1">Days, Not Weeks.</span>
             </h1>
-            <p className="text-base md:text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
+            <p className="text-sm md:text-base text-gray-600 mb-8 max-w-2xl mx-auto">
               Get a stunning, conversion-optimized website that delivers results.
               Fast turnaround, professional design, zero hassle.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="mailto:hello@sitesheep.io?subject=Free Homepage Preview Request" className="px-6 py-3 font-semibold text-white rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl" style={{ background: '#F59E0B' }}>
+              <a href="mailto:hello@sitesheep.io?subject=Free Homepage Preview Request" className="px-5 py-2.5 text-sm font-semibold text-white rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl" style={{ background: '#F59E0B' }}>
                 <span>Get Your Free Homepage Preview</span>
               </a>
               <a href="#process" className="btn-secondary">
@@ -118,65 +118,65 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 bg-gradient-to-b from-white via-gray-50 to-white relative">
+      <section id="features" className="py-12 md:py-16 bg-gradient-to-b from-white via-gray-50 to-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12 md:mb-16 animate-fade-in">
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-gray-900">
+          <div className="text-center mb-8 md:mb-12 animate-fade-in">
+            <h2 className="text-lg md:text-xl lg:text-2xl font-bold mb-3 text-gray-900">
               Why businesses choose <span className="gradient-text">SiteSheep</span>
             </h2>
-            <p className="text-base md:text-lg text-gray-600">Speed is our superpower. Quality is our promise.</p>
+            <p className="text-sm md:text-base text-gray-600">Speed is our superpower. Quality is our promise.</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="feature-card min-h-[240px] flex flex-col text-center md:text-left">
-              <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <div className="feature-card min-h-[200px] flex flex-col text-center md:text-left">
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center mb-3 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
+                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M13 3l-3 10h4l-2 8 6-11h-4l2-6z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-3 text-gray-900">Lightning Fast Delivery</h3>
-              <p className="text-gray-600">Complete website redesign in just 5 days. No more waiting months for your new site.</p>
+              <h3 className="text-base font-bold mb-2 text-gray-900">Lightning Fast Delivery</h3>
+              <p className="text-sm text-gray-600">Complete website redesign in just 5 days. No more waiting months for your new site.</p>
             </div>
 
-            <div className="feature-card min-h-[240px] flex flex-col text-center md:text-left">
-              <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="feature-card min-h-[200px] flex flex-col text-center md:text-left">
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center mb-3 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-3 text-gray-900">Professional Design</h3>
-              <p className="text-gray-600">Modern, conversion-optimized designs that make your business stand out.</p>
+              <h3 className="text-base font-bold mb-2 text-gray-900">Professional Design</h3>
+              <p className="text-sm text-gray-600">Modern, conversion-optimized designs that make your business stand out.</p>
             </div>
 
-            <div className="feature-card min-h-[240px] flex flex-col text-center md:text-left">
-              <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="feature-card min-h-[200px] flex flex-col text-center md:text-left">
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center mb-3 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-3 text-gray-900">Full Service Management</h3>
-              <p className="text-gray-600">We handle everything from design to deployment. Sit back and watch your vision come to life.</p>
+              <h3 className="text-base font-bold mb-2 text-gray-900">Full Service Management</h3>
+              <p className="text-sm text-gray-600">We handle everything from design to deployment. Sit back and watch your vision come to life.</p>
             </div>
 
-            <div className="feature-card min-h-[240px] flex flex-col text-center md:text-left">
-              <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="feature-card min-h-[200px] flex flex-col text-center md:text-left">
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center mb-3 shadow-lg mx-auto md:mx-0" style={{ background: '#F59E0B' }}>
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-3 text-gray-900">Quick Preview</h3>
-              <p className="text-gray-600">See your free homepage preview in just 24 hours. Love it before you commit.</p>
+              <h3 className="text-base font-bold mb-2 text-gray-900">Quick Preview</h3>
+              <p className="text-sm text-gray-600">See your free homepage preview in just 24 hours. Love it before you commit.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Proof Points Section */}
-      <section id="proof-points" className="py-12 md:py-20 bg-gradient-to-b from-gray-50 via-white to-gray-50 relative">
+      <section id="proof-points" className="py-12 md:py-16 bg-gradient-to-b from-gray-50 via-white to-gray-50 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12 md:mb-16 animate-fade-in">
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-gray-900">
+          <div className="text-center mb-8 md:mb-12 animate-fade-in">
+            <h2 className="text-lg md:text-xl lg:text-2xl font-bold mb-3 text-gray-900">
               Trusted to deliver <span className="gradient-text">exceptional results</span>
             </h2>
           </div>
@@ -208,46 +208,46 @@ export default function Home() {
       </section>
 
       {/* Process Section */}
-      <section id="process" className="py-20 bg-gradient-to-b from-white via-gray-50 to-white relative">
+      <section id="process" className="py-12 md:py-16 bg-gradient-to-b from-white via-gray-50 to-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-gray-900">
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-lg md:text-xl lg:text-2xl font-bold mb-3 text-gray-900">
               From concept to launch in <span className="gradient-text">3 simple steps</span>
             </h2>
-            <p className="text-base md:text-lg text-gray-600">Our streamlined process gets you online faster.</p>
+            <p className="text-sm md:text-base text-gray-600">Our streamlined process gets you online faster.</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="process-step text-center">
-              <div className="glass-effect rounded-2xl p-6 hover:scale-105 transition-transform duration-300 min-h-[280px] flex flex-col justify-between">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-xl font-bold shadow-lg" style={{ background: '#F59E0B' }}>
+              <div className="glass-effect rounded-xl p-5 hover:scale-105 transition-transform duration-300 min-h-[220px] flex flex-col justify-between">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-lg font-bold shadow-lg" style={{ background: '#F59E0B' }}>
                   1
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-900">Submit</h3>
-                <p className="text-gray-600">Share your vision and current website. We&apos;ll create a free preview in 24 hours.</p>
-                <div className="mt-4 text-sm font-semibold" style={{ color: '#595758' }}>Day 1</div>
+                <h3 className="text-lg font-bold mb-2 text-gray-900">Submit</h3>
+                <p className="text-sm text-gray-600">Share your vision and current website. We&apos;ll create a free preview in 24 hours.</p>
+                <div className="mt-3 text-xs font-semibold" style={{ color: '#595758' }}>Day 1</div>
               </div>
             </div>
 
             <div className="process-step text-center">
-              <div className="glass-effect rounded-2xl p-6 hover:scale-105 transition-transform duration-300 min-h-[280px] flex flex-col justify-between">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-xl font-bold shadow-lg" style={{ background: '#F59E0B' }}>
+              <div className="glass-effect rounded-xl p-5 hover:scale-105 transition-transform duration-300 min-h-[220px] flex flex-col justify-between">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-lg font-bold shadow-lg" style={{ background: '#F59E0B' }}>
                   2
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-900">Design</h3>
-                <p className="text-gray-600">We create your complete website with all pages, features, and optimizations.</p>
-                <div className="mt-4 text-sm font-semibold" style={{ color: '#595758' }}>Days 2-4</div>
+                <h3 className="text-lg font-bold mb-2 text-gray-900">Design</h3>
+                <p className="text-sm text-gray-600">We create your complete website with all pages, features, and optimizations.</p>
+                <div className="mt-3 text-xs font-semibold" style={{ color: '#595758' }}>Days 2-4</div>
               </div>
             </div>
 
             <div className="process-step text-center">
-              <div className="glass-effect rounded-2xl p-6 hover:scale-105 transition-transform duration-300 min-h-[280px] flex flex-col justify-between">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-xl font-bold shadow-lg" style={{ background: '#F59E0B' }}>
+              <div className="glass-effect rounded-xl p-5 hover:scale-105 transition-transform duration-300 min-h-[220px] flex flex-col justify-between">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-lg font-bold shadow-lg" style={{ background: '#F59E0B' }}>
                   3
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-900">Launch</h3>
-                <p className="text-gray-600">Your new website goes live. We handle hosting, domains, and everything else.</p>
-                <div className="mt-4 text-sm font-semibold" style={{ color: '#595758' }}>Day 5</div>
+                <h3 className="text-lg font-bold mb-2 text-gray-900">Launch</h3>
+                <p className="text-sm text-gray-600">Your new website goes live. We handle hosting, domains, and everything else.</p>
+                <div className="mt-3 text-xs font-semibold" style={{ color: '#595758' }}>Day 5</div>
               </div>
             </div>
           </div>
@@ -255,19 +255,19 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" style={{ background: 'linear-gradient(135deg, #595758 0%, #231815 100%)' }}>
+      <section className="py-12 md:py-16" style={{ background: 'linear-gradient(135deg, #595758 0%, #231815 100%)' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-6">
+          <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white mb-4">
             Ready to transform your website?
           </h2>
-          <p className="text-base md:text-lg text-white/90 mb-8">
+          <p className="text-sm md:text-base text-white/90 mb-6">
             Get your free homepage preview delivered in 24 hours. No commitment required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:hello@sitesheep.io?subject=Free Homepage Preview Request" className="px-6 py-3 rounded-xl font-semibold text-white transition-all duration-300 transform hover:scale-105 shadow-lg hover:bg-amber-600" style={{ background: '#F59E0B' }}>
+            <a href="mailto:hello@sitesheep.io?subject=Free Homepage Preview Request" className="px-5 py-2.5 text-sm rounded-lg font-semibold text-white transition-all duration-300 transform hover:scale-105 shadow-lg hover:bg-amber-600" style={{ background: '#F59E0B' }}>
               Get Your Free Preview
             </a>
-            <a href="mailto:hello@sitesheep.io?subject=Schedule a Call" className="border-2 border-white text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300">
+            <a href="mailto:hello@sitesheep.io?subject=Schedule a Call" className="border-2 border-white text-white px-5 py-2.5 text-sm rounded-lg font-semibold hover:bg-white/10 transition-all duration-300">
               Schedule a Call
             </a>
           </div>
