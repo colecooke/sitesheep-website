@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
               <Image src="/logos/sheep-free-svgrepo-com.svg" alt="SiteSheep Logo" width={40} height={40} priority />
-              <span className="text-xl font-bold text-black">SiteSheep</span>
+              <span className="text-lg font-bold text-black">SiteSheep</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-gray-700 hover:text-[#595758] transition-colors">Features</a>
@@ -89,7 +89,7 @@ export default function Home() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-12">
           <div className="animate-slide-up">
-            <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-bold mb-4 text-gray-900 leading-tight">
+            <h1 className="text-xl sm:text-2xl md:text-[2rem] lg:text-[2.125rem] font-bold mb-4 text-gray-900 leading-tight">
               Website Redesign.
               <span className="block gradient-text leading-relaxed mt-1">Days, Not Weeks.</span>
             </h1>
@@ -121,7 +121,7 @@ export default function Home() {
       <section id="features" className="py-12 md:py-16 bg-gradient-to-b from-white via-gray-50 to-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12 animate-fade-in">
-            <h2 className="text-lg md:text-xl lg:text-2xl font-bold mb-3 text-gray-900">
+            <h2 className="text-base md:text-lg lg:text-xl font-bold mb-3 text-gray-900">
               Why businesses choose <span className="gradient-text">SiteSheep</span>
             </h2>
             <p className="text-sm md:text-base text-gray-600">Speed is our superpower. Quality is our promise.</p>
@@ -176,7 +176,7 @@ export default function Home() {
       <section id="proof-points" className="py-12 md:py-16 bg-gradient-to-b from-gray-50 via-white to-gray-50 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12 animate-fade-in">
-            <h2 className="text-lg md:text-xl lg:text-2xl font-bold mb-3 text-gray-900">
+            <h2 className="text-base md:text-lg lg:text-xl font-bold mb-3 text-gray-900">
               Trusted to deliver <span className="gradient-text">exceptional results</span>
             </h2>
           </div>
@@ -188,7 +188,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
-              <div className="text-2xl md:text-3xl lg:text-3xl font-bold mb-2 gradient-text">237+</div>
+              <div className="text-xl md:text-2xl lg:text-2xl font-bold mb-2 gradient-text">237+</div>
               <h3 className="text-sm md:text-base font-semibold mb-2 text-gray-900">Website Redesigns</h3>
               <p className="text-sm md:text-base text-gray-600">Successfully completed projects delivered on time</p>
             </div>
@@ -199,7 +199,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <div className="text-2xl md:text-3xl lg:text-3xl font-bold mb-2 gradient-text">185+</div>
+              <div className="text-xl md:text-2xl lg:text-2xl font-bold mb-2 gradient-text">185+</div>
               <h3 className="text-sm md:text-base font-semibold mb-2 text-gray-900">Happy Customers</h3>
               <p className="text-sm md:text-base text-gray-600">Satisfied clients who love their new websites</p>
             </div>
@@ -211,7 +211,7 @@ export default function Home() {
       <section id="process" className="py-12 md:py-16 bg-gradient-to-b from-white via-gray-50 to-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-lg md:text-xl lg:text-2xl font-bold mb-3 text-gray-900">
+            <h2 className="text-base md:text-lg lg:text-xl font-bold mb-3 text-gray-900">
               From concept to launch in <span className="gradient-text">3 simple steps</span>
             </h2>
             <p className="text-sm md:text-base text-gray-600">Our streamlined process gets you online faster.</p>
@@ -220,10 +220,10 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="process-step text-center">
               <div className="glass-effect rounded-xl p-5 hover:scale-105 transition-transform duration-300 min-h-[220px] flex flex-col justify-between">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-lg font-bold shadow-lg" style={{ background: '#F59E0B' }}>
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-base font-bold shadow-lg" style={{ background: '#F59E0B' }}>
                   1
                 </div>
-                <h3 className="text-lg font-bold mb-2 text-gray-900">Submit</h3>
+                <h3 className="text-base font-bold mb-2 text-gray-900">Submit</h3>
                 <p className="text-sm text-gray-600">Share your vision and current website. We&apos;ll create a free preview in 24 hours.</p>
                 <div className="mt-3 text-xs font-semibold" style={{ color: '#595758' }}>Day 1</div>
               </div>
@@ -231,10 +231,10 @@ export default function Home() {
 
             <div className="process-step text-center">
               <div className="glass-effect rounded-xl p-5 hover:scale-105 transition-transform duration-300 min-h-[220px] flex flex-col justify-between">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-lg font-bold shadow-lg" style={{ background: '#F59E0B' }}>
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-base font-bold shadow-lg" style={{ background: '#F59E0B' }}>
                   2
                 </div>
-                <h3 className="text-lg font-bold mb-2 text-gray-900">Design</h3>
+                <h3 className="text-base font-bold mb-2 text-gray-900">Design</h3>
                 <p className="text-sm text-gray-600">We create your complete website with all pages, features, and optimizations.</p>
                 <div className="mt-3 text-xs font-semibold" style={{ color: '#595758' }}>Days 2-4</div>
               </div>
@@ -242,10 +242,10 @@ export default function Home() {
 
             <div className="process-step text-center">
               <div className="glass-effect rounded-xl p-5 hover:scale-105 transition-transform duration-300 min-h-[220px] flex flex-col justify-between">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-lg font-bold shadow-lg" style={{ background: '#F59E0B' }}>
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-base font-bold shadow-lg" style={{ background: '#F59E0B' }}>
                   3
                 </div>
-                <h3 className="text-lg font-bold mb-2 text-gray-900">Launch</h3>
+                <h3 className="text-base font-bold mb-2 text-gray-900">Launch</h3>
                 <p className="text-sm text-gray-600">Your new website goes live. We handle hosting, domains, and everything else.</p>
                 <div className="mt-3 text-xs font-semibold" style={{ color: '#595758' }}>Day 5</div>
               </div>
@@ -257,7 +257,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-12 md:py-16" style={{ background: 'linear-gradient(135deg, #595758 0%, #231815 100%)' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white mb-4">
+          <h2 className="text-base md:text-lg lg:text-xl font-bold text-white mb-4">
             Ready to transform your website?
           </h2>
           <p className="text-sm md:text-base text-white/90 mb-6">
@@ -281,7 +281,7 @@ export default function Home() {
             <div className="text-center md:text-left">
               <div className="flex items-center space-x-2 mb-4 justify-center md:justify-start">
                 <Image src="/logos/sheep-free-svgrepo-com.svg" alt="SiteSheep Logo" width={40} height={40} loading="lazy" />
-                <span className="text-xl font-bold text-black">SiteSheep</span>
+                <span className="text-lg font-bold text-black">SiteSheep</span>
               </div>
               <p className="text-gray-600">
                 Website Redesign. Days, Not Weeks.
