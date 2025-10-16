@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
+import { Suspense } from 'react'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import GoogleAnalytics from './shared/GoogleAnalytics'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -49,9 +52,33 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        {GA_ID ? (
+          <>
+            <Script
+              strategy="afterInteractive"
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+            />
+            <Script id="gtag-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                window.gtag = window.gtag || gtag;
+                gtag('js', new Date());
+                // Disable automatic page view for SPA; we handle it on route change
+                gtag('config', '${GA_ID}', { send_page_view: false });
+              `}
+            </Script>
+            <Suspense fallback={null}>
+              <GoogleAnalytics />
+            </Suspense>
+          </>
+        ) : null}
+      </body>
     </html>
   )
 }
