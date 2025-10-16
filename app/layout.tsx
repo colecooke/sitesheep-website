@@ -52,7 +52,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
+  const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || 'G-PH15NZRM8E'
   return (
     <html lang="en">
       <body className={inter.className}>
